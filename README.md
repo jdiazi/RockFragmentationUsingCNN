@@ -27,9 +27,9 @@ Further research can be merged with geotechnical and operational criteria that l
 * The training and validation datasets consisted of 48 and 12 images, respectively.
 
 <p align="center">
-  <img alt="Training set" src="https://github.com/jdiazi/RockFragmentationUsingCNN/blob/main/images/training_set_48_images.jpg" width="450" height="240">
+  <img alt="Training set" src="https://github.com/jdiazi/RockFragmentationUsingCNN/blob/main/images/training_set_48_images.jpg" width="440" height="230">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Validation set" src="https://github.com/jdiazi/RockFragmentationUsingCNN/blob/main/images/validation_set_12_images.jpg" width="450" height="240">
+  <img alt="Validation set" src="https://github.com/jdiazi/RockFragmentationUsingCNN/blob/main/images/validation_set_12_images.jpg" width="440" height="230">
 </p>
 
 * We used [VGG Image Annotator](https://www.robots.ox.ac.uk/~vgg/software/via/via-1.0.0.html) for the labelling process.
