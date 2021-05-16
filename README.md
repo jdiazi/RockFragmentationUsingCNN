@@ -60,21 +60,22 @@ When it comes to the score the model, results are better than expected but it is
 
 ### 5. Creating the Rock Fragmentation Curve
 
-https://github.com/jdiazi/RockFragmentationUsingCNN/blob/main/images/maskIsolation.jpg
-
 The fist step to create the Rock Fragmentation Curve is:
 * Isolate the predicted masks from the picture.
 * Count and calculate the area of each mask.
+<p align="center">
+  <img src="https://github.com/jdiazi/RockFragmentationUsingCNN/blob/main/images/maskIsolation.jpg">
+</p>
+
 * Get an equivalent diameter for each area obtained.
 * Create an array containing all the diameters to plot then as a Histogram and then, as a Cummulative Density Plot.
-
-_**Note: Given that we are not working with a scale, we created a histogram based solely on pixel dimension.**_
-
 <p align="center">
   <img alt="Rock size histogram" src="https://github.com/jdiazi/RockFragmentationUsingCNN/blob/main/images/rockSizeHistogram.jpg">
 &nbsp; &nbsp; &nbsp; &nbsp;
   <img alt="Validation set" src="https://github.com/jdiazi/RockFragmentationUsingCNN/blob/main/images/granulometricCurve.jpg">
 </p>
+
+_**Note: Given that we are not working with a scale, we created a histogram based solely on pixel dimension.**_
 
 ## Next steps
 
