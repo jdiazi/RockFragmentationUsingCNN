@@ -1,6 +1,6 @@
 # Rock Fragmentation Curve using Mask R-CNN
 
-Our goal is to obtain the Fragmentation Curve of blasted rock images using Convolutional Neural Networks (CNN) through Image Segmentation ([Mask R-CNN](https://github.com/matterport/Mask_RCNN)).
+Our goal is to obtain a Fragmentation Curve of blasted rock images based on a Semantic Segmentation Model supported by [Mask R-CNN](https://github.com/matterport/Mask_RCNN).
 
 Further research can be merged with geotechnical and operational criteria that lead to getting a Rock Fragmentation Analysis in a shorter time. Thus, mining operations could improve the accuracy of their operational KPI as Powder/Digging factor and so on.
 
