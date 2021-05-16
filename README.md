@@ -1,4 +1,4 @@
-# RockFragmentationUsingCNN
+# Rock Fragmentation Curve using Mask R-CNN
 
 Our goal is to obtain the Fragmentation Curve of blasted rock images using Convolutional Neural Networks (CNN) through Image Segmentation ([Mask R-CNN](https://github.com/matterport/Mask_RCNN)).
 
@@ -14,15 +14,15 @@ Further research can be merged with geotechnical and operational criteria that l
 * Trained and tested our model based on the Mask R-CNN architecture.
 * Extract masks to develop the Rock Fragmentation curve.
 
-# Workflow
+## Workflow
 
-## 1. Searching and downloading muck pile images from Google
+### 1. Searching and downloading muck pile images from Google
 
 <p align="center">
   <img src="https://github.com/jdiazi/RockFragmentationUsingCNN/blob/main/images/rockblastedimages.jpg">
 </p>
 
-## 2. Creating image datasets and labelling them
+### 2. Creating image datasets and labelling them
 
 The training dataset consisted of 48 images, and the validation one of 12 images.
 <p align="center">
@@ -38,7 +38,7 @@ We used [VGG Image Annotator](https://www.robots.ox.ac.uk/~vgg/software/via/via-
 </p>
 
 
-## 3. Image pre-processing
+### 3. Image pre-processing
 
 * Our main challenge when using rock blasted images from google is that we have to deal with image noise, distorsion by focal length, sunlight effect, etc. Currently, we are working on how to address this problem.
 * So far, we get that in order to improve the metrics of our Semantic Segmentation Model, it is mandatory that it can recognize the borders of each rock.
@@ -48,7 +48,7 @@ We used [VGG Image Annotator](https://www.robots.ox.ac.uk/~vgg/software/via/via-
   <img src="https://github.com/jdiazi/RockFragmentationUsingCNN/blob/main/images/imageSobel.jpg">
 </p>
 
-## 4. Training and validation process
+### 4. Training and validation process
 
 As we said before, we used Mask R-CNN to train our model. Mainly because its easier to use for non-tech professionals.
 
@@ -58,7 +58,7 @@ When it comes to the score the model, results are better than expected but it is
   <img src="https://github.com/jdiazi/RockFragmentationUsingCNN/blob/main/images/predictedImage.jpg">
 </p>
 
-## 5. Creating the Rock Fragmentation Curve
+### 5. Creating the Rock Fragmentation Curve
 
 https://github.com/jdiazi/RockFragmentationUsingCNN/blob/main/images/maskIsolation.jpg
 
@@ -76,18 +76,18 @@ _**Note: Given that we are not working with a scale, we created a histogram base
   <img alt="Validation set" src="https://github.com/jdiazi/RockFragmentationUsingCNN/blob/main/images/granulometricCurve.jpg">
 </p>
 
-# Next steps
+## Next steps
 
 * Improve the pre-processing stage.
 * Apply data augmentation.
 * Test our model in a real image dataset used by mining companies.
 
-# References
+## References
 
 * [Automated Image Segmentation and Analysis of Rock Piles in an Open-Pit Mine](https://www.diva-portal.org/smash/get/diva2:1010999/FULLTEXT01.pdf)
 * [An Application of Deep Neural Networks for Segmentation of Microtomographic Images of Rock Samples](https://www.mdpi.com/2073-431X/8/4/72)
 * [Estimation of particle size distribution on an industrial conveyor belt using image analysis and neural networks](https://www.sciencedirect.com/science/article/abs/pii/S0032591014003465)
 
-# Acknowledgments
+## Acknowledgments
 
 * [Mask RCNN](https://github.com/matterport/Mask_RCNN)
