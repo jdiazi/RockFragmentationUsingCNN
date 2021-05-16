@@ -24,7 +24,7 @@ Further research can be merged with geotechnical and operational criteria that l
 
 ### 2. Creating image datasets and labelling them
 
-The training dataset consisted of 48 images, and the validation one of 12 images.
+* The training dataset consisted of 48 images, and the validation one of 12 images.
 
 <p align="center">
   <img alt="Training set" src="https://github.com/jdiazi/RockFragmentationUsingCNN/blob/main/images/training_set_48_images.jpg" width="460" height="240">
@@ -32,7 +32,7 @@ The training dataset consisted of 48 images, and the validation one of 12 images
   <img alt="Validation set" src="https://github.com/jdiazi/RockFragmentationUsingCNN/blob/main/images/validation_set_12_images.jpg" width="460" height="240">
 </p>
 
-We used [VGG Image Annotator](https://www.robots.ox.ac.uk/~vgg/software/via/via-1.0.0.html) for the labelling process.
+* We used [VGG Image Annotator](https://www.robots.ox.ac.uk/~vgg/software/via/via-1.0.0.html) for the labelling process.
 
 <p align="center">
   <img src="https://github.com/jdiazi/RockFragmentationUsingCNN/blob/main/images/imageSegmentationMask.jpg">
@@ -51,9 +51,9 @@ We used [VGG Image Annotator](https://www.robots.ox.ac.uk/~vgg/software/via/via-
 
 ### 4. Training and validation process
 
-As we said before, we used Mask R-CNN to train our model. Mainly because its easier to use for non-tech professionals.
+* As we said before, we used Mask R-CNN to train our model. Mainly because its easier to use for non-tech professionals.
 
-When it comes to the score the model, results are better than expected but it is clear that there is still a lot of room for improvement (for the most part in the pre-processing stage)
+* When it comes to the score the model, results are better than expected but it is clear that there is still a lot of room for improvement (for the most part in the pre-processing stage)
 
 <p align="center">
   <img src="https://github.com/jdiazi/RockFragmentationUsingCNN/blob/main/images/predictedImage.jpg">
@@ -61,7 +61,6 @@ When it comes to the score the model, results are better than expected but it is
 
 ### 5. Creating the Rock Fragmentation Curve
 
-The fist step to create the Rock Fragmentation Curve is:
 * Isolate the predicted masks from the picture.
 * Count and calculate the area of each mask.
 <p align="center">
@@ -70,6 +69,7 @@ The fist step to create the Rock Fragmentation Curve is:
 
 * Get an equivalent diameter for each area obtained.
 * Create an array containing all the diameters to plot then as a Histogram and then, as a Cummulative Density Plot.
+
 <p align="center">
   <img alt="Rock size histogram" src="https://github.com/jdiazi/RockFragmentationUsingCNN/blob/main/images/rockSizeHistogram.jpg">
 &nbsp; &nbsp; &nbsp; &nbsp;
