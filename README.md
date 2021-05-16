@@ -83,7 +83,11 @@ _**Note: Given that we are not working with a scale, we created a histogram base
 * Test our model in a real image dataset used by mining companies.
 
 # References
+
 * [Automated Image Segmentation and Analysis of Rock Piles in an Open-Pit Mine](https://www.diva-portal.org/smash/get/diva2:1010999/FULLTEXT01.pdf)
+* [An Application of Deep Neural Networks for Segmentation of Microtomographic Images of Rock Samples](https://www.mdpi.com/2073-431X/8/4/72)
+* [Estimation of particle size distribution on an industrial conveyor belt using image analysis and neural networks](https://www.sciencedirect.com/science/article/abs/pii/S0032591014003465)
 
+# Acknowledgments
 
-
+* [Mask RCNN](https://github.com/matterport/Mask_RCNN)
