@@ -24,7 +24,7 @@ Further research can be merged with geotechnical and operational criteria that l
 
 ### 2. Creating image datasets and labelling them
 
-* The training dataset consisted of 48 images, and the validation one of 12 images.
+* The training and validation datasets consisted of 48 and 12 images, respectively.
 
 <p align="center">
   <img alt="Training set" src="https://github.com/jdiazi/RockFragmentationUsingCNN/blob/main/images/training_set_48_images.jpg" width="450" height="240">
